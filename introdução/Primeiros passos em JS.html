@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos em JS</title>
+</head>
+<style>
+</style>
+<body>
+    <script>
+       //1) Faça um Programa que mostre a mensagem "Alo mundo" na tela.
+        alert("Alô mundo")
+
+        //2) Faça um Programa que peça um número e então mostre a mensagem "O número informado foi [número]"
+        var número = prompt("Digite um número:")
+        alert(`O número informado foi ${número}`)
+
+        //3) Faça um Programa que peça dois números e imprima a soma.
+        alert("Agora será feita a soma de 2 números")
+        var a=1*prompt("informe o primeiro número")
+        var b=1*prompt("Informe o segundo número")
+        alert(`A soma dos números é: ${a+b}`)
+
+        //4) Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+        alert("Agora será realizada a média de 4 notas bimestrais")
+        var nota1 = 1*prompt("Informe a primeira nota")
+        var nota2 = 1*prompt("Informe a segunda nota")
+        var nota3 = 1*prompt("Infrome a terceira nota")
+        var nota4 = 1*prompt("Informe a quarta nota") 
+        alert(`A média é: ${(nota1+nota2+nota3+nota4)/4}`)
+
+        //5) Faça um Programa que peça um número e então mostre o antecessor e o sucessor deste.
+        alert("Agora será mostrado o antecessor e o sucessor de um número")
+        var AS = 1*prompt("Digite um número: ")
+        alert(`O número escolhido foi ${AS}, seu antecessor é ${AS-1} e seu sucessor é ${AS+1}`)
+
+        //6) Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
+        alert("Agora será calculado qual o seu salário em determinado mês")
+        var quanto = 1*prompt("Quanto você recebe por hora?")
+        var hora = 1*prompt("Quantas horas você trabalhou esse mês?")
+        var salário = (quanto*hora)
+        alert(`Seu salário este mês foi de: ${salário.toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}`)
+
+        //7) Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
+        alert("Agora será calculado o tempo de download de um arquivo")
+        var arquivo = 1*prompt("Informe o tamanho do arquivo em MB")
+        var velocidade = 1*prompt("Informe a velocidade de download em Mbps")
+        var download = arquivo*8/velocidade/60
+        alert(`O tempo aproximado de download é: ${download.toFixed(2).replace( '.',' minutos e ')} segundos`)
+
+        //8) Faça um programa que peça um nome e mostre a mensagem "Boa noite [nome]
+        var name =prompt("Insira seu nome:")
+        alert(`Boa noite ${name}`)
+    </script>
+</body>
+</html>
