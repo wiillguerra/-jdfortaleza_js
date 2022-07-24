@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*4) Faça um Programa que verifique se uma letra digitada é "F" ou "M". 
+        Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.*/
+
+        var gen = window.prompt("Digite F para feminino ou M para masculino: ")
+        
+        switch(gen){
+            case 'F':
+                window.alert("Feminino")
+                break
+
+            case 'f':
+                window.alert("Feminino")
+                break
+
+            case 'M':
+                window.alert("Masculino")
+                break
+
+            case 'm':
+                window.alert("Masculino")
+                break
+
+            default:
+                window.alert("Sexo Inválido")
+        }
+    </script>
+</body>
+</html>

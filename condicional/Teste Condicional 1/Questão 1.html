@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1) Faça um Programa que peça dois números e imprima o maior deles.
+
+        window.alert("Digite dois números e o maior deles será exibido")
+
+        var n1 = Number.parseFloat(window.prompt("Digite o primeiro número: "))
+        var n2 = Number.parseFloat(window.prompt("Digite o segundo número: "))
+
+        if(n1==n2){
+            window.alert("Os números são iguais")
+        } 
+        else if(n1>n2){
+            window.alert(`O maior número é : ${n1}`)
+        }
+        else if(n2>n1){
+            window.alert(`O maior número é: ${n2}`)
+        }
+        else{
+            window.alert("Algum número não foi informado")
+        }
+        
+    </script>
+</body>
+</html>

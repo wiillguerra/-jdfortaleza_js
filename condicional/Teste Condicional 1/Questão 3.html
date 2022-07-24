@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //3) Faça um Programa que leia três números e mostre o maior deles.
+
+        window.alert("Digite três números e mostrarei o maior deles")
+
+        var n1 = Number.parseFloat(window.prompt("Digite o primeiro número: "))
+        var n2 = Number.parseFloat(window.prompt("Digite o segundo número: "))
+        var n3 = Number.parseFloat(window.prompt("Digite o terceiro número: "))
+
+        if(n1==n2 && n2==n3){
+            window.alert("Os números são iguais")
+        }
+        else if(n1>n2 && n1>n3){
+            window.alert(`O maior número é: ${n1}`)
+        }
+        else if(n2>n1 && n2>n3){
+            window.alert(`O maior número é: ${n2}`)
+        }
+        else if(n3>n1 && n3>n2){
+            window.alert(`O maior número é: ${n3}`)
+        }
+        else{
+            window.alert("Algum número não foi informado")
+        }
+    </script>
+</body>
+</html>
