@@ -1,1 +1,1 @@
-Esse código foi criado para resolução de atividades do curso online de Programação WEB com JavaScript
+Esse repositório foi criado para resolução das atividades do curso online de Programação WEB com JavaScript
