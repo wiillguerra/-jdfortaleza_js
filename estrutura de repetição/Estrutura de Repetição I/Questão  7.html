@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <script>
+        // 7) Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10. 
+        // O usuário deve informar de qual numero ele deseja ver a tabuada. A saída deve ser conforme o exemplo abaixo:
+        // Tabuada de 5:
+        // 5 X 1 = 5
+        // 5 X 2 = 10
+        // ...
+        // 5 X 10 = 50
+        
+        var n1 = Number.parseInt(window.prompt("Digite um número entre 1 e 10 e mostrarei a tabuada dele: "))
+            
+        if(n1<=10){
+            document.write(`A tabuada de ${n1} é:<br>`)
+            document.write(`${n1} + 1 = ${n1+1}<br>${n1} + 2 = ${n1+2}<br>${n1} + 3 = ${n1+3}<br>${n1} + 4 = ${n1+4}<br>${n1} + 5 = ${n1+5}<br>${n1} + 6 = ${n1+6}<br>${n1} + 7 = ${n1+7}<br>${n1} + 8 = ${n1+8}<br>${n1} + 9 = ${n1+9}<br>${n1} + 10 = ${n1+10}<br>`)
+            document.write(`<br>${n1} - 1 = ${n1-1}<br>${n1} - 2 = ${n1-2}<br>${n1} - 3 = ${n1-3}<br>${n1} - 4 = ${n1-4}<br>${n1} - 5 = ${n1-5}<br>${n1} - 6 = ${n1-6}<br>${n1} - 7 = ${n1-7}<br>${n1} - 8 = ${n1-8}<br>${n1} - 9 = ${n1-9}<br>${n1} - 10 = ${n1-10}<br>`)
+            document.write(`<br>${n1} x 1 = ${n1*1}<br>${n1} x 2 = ${n1*2}<br>${n1} x 3 = ${n1*3}<br>${n1} x 4 = ${n1*4}<br>${n1} x 5 = ${n1*5}<br>${n1} x 6 = ${n1*6}<br>${n1} x 7 = ${n1*7}<br>${n1} x 8 = ${n1*8}<br>${n1} x 9 = ${n1*9}<br>${n1} x 10 = ${n1*10}<br>`)
+            document.write(`<br>${n1} / 1 = ${(n1/1)}<br>${n1} / 2 = ${n1/2}<br>${n1} / 3 = ${n1/3}<br>${n1} / 4 = ${n1/4}<br>${n1} / 5 = ${n1/5}<br>${n1} / 6 = ${n1/6}<br>${n1} / 7 = ${n1/7}<br>${n1} / 8 = ${n1/8}<br>${n1} / 9 = ${n1/9}<br>${n1} / 10 = ${n1/10}<br>`)
+        }
+    </script>
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 3) Faça um programa que receba dois números inteiros e gere 
+        //    os números inteiros que estão no intervalo compreendido por eles.
+
+        window.alert("Digite dois números e mostrarei os números inteiros que estão entre eles")
+
+        var n1 = Number.parseInt(window.prompt("Digite o primeiro número:"))
+        var n2 = Number.parseInt(window.prompt("Digite o segundo número:"))
+
+        
+
+        if(n1<n2){
+            document.write(`<p>Os números inteiros que estão no intervalo entre ${n1} e ${n2} são:</p>`)
+            
+        for(n1; n1<(n2-2); ){
+            n1++
+            document.write(`${n1}, `)
+            }
+            document.write(`${n2-1}.`)
+        }
+
+        if(n2<n1){
+            document.write(`<p>Os números inteiros que estão no intervalo entre ${n2} e ${n1} são:</p>`)
+
+        for(; n2<(n1-2); ){
+            n2++
+            document.write(`${n2}, `)
+            }
+            document.write(`${n1-1}.`)
+        }
+            
+    </script>
+</body>
+</html>
