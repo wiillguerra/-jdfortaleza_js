@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 3) Faça um programa que peça uma nota, entre zero e dez. 
+        // Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
+
+        var nota = window.prompt("Digite uma nota de 0 a 10: ")
+
+        while(nota>10 || nota<0){
+            var nota = window.prompt("Valor inválido! Digite uma nota de 0 a 10: ")
+        }
+    </script>
+</body>
+</html>

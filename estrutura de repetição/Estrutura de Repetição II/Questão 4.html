@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 4) Faça um programa que calcule o mostre a média aritmética de N notas.
+
+        window.alert("Digite as notas e mostrarei a média delas")
+        var N = Number.parseFloat(window.prompt("Quantas notas você deseja inserir: "))
+        var soma = 0
+
+        for(n=1; n<=N; n++){
+           var nota = Number.parseFloat(window.prompt("Digite a nota: "))
+           soma+=nota
+
+        }
+        var media = soma/N
+        window.alert(`A média das notas é ${media}`)
+    </script>
+    
+</body>
+</html>
